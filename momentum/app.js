@@ -1,3 +1,2 @@
-const amIFat = null;
-let something;
-console.log(something, amIFat);
+const toBuy = ["porara","tomaoo","pizza"]
+toBuy.push("kimbab")
