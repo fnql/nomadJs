@@ -1,2 +1,10 @@
-const toBuy = ["porara","tomaoo","pizza"]
-toBuy.push("kimbab")
+const player = {
+    name: "woogi",
+    points: 10,
+    fat: true,
+};
+console.log(player);
+console.log(player.name);
+player.fat = false;
+
+console.log(player.fat);
