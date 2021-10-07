@@ -1,10 +1,9 @@
 const player = {
     name: "woogi",
-    points: 10,
-    fat: true,
-};
-console.log(player);
-console.log(player.name);
-player.fat = false;
+    sayHello: function(a){
+        console.log("hello! " + a +" nice");
+    }
+}
 
-console.log(player.fat);
+console.log(player.name);
+player.sayHello("lynn");
