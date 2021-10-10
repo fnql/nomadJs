@@ -1,8 +1,9 @@
-const age = 96;
-function calAge(agei){
-    return agei +2;
+const age = parseInt(prompt("your age?"));
+
+console.log(isNaN(age));
+
+if(isNaN(age)){
+    console.log("숫자 입력!");
+}   else{
+    console.log("your age" + age);
 }
-
-const krAge = calAge(age);
-
-console.log(krAge);
